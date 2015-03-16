@@ -1,5 +1,9 @@
 
-# Dependency manager (Bower)
+# Configuration files
+/config/dev.php
+/config/prod.php
+
+# Dependency manager (Bower, Composer & NPM)
 /node_modules/*
 !node_modules/.gitkeep
 /vendor/*
@@ -7,3 +11,9 @@
 /vendor-front/*
 !vendor-front/.gitkeep
 /composer.lock
+
+# Var
+/var/cache/*
+!/var/cache/.gitkeep
+/var/log/*
+!/var/log/.gitkeep
