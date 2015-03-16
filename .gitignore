@@ -1,4 +1,7 @@
 
 # Dependency manager (Bower)
+/vendor/*
+!vendor/.gitkeep
 /vendor-front/*
 !vendor-front/.gitkeep
+/composer.lock

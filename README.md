@@ -6,6 +6,7 @@ Silex application bootstrapper, just what you need to get in Silex world.
 # Requirements
 
 - Bower
+- Composer
 
 
 # Install
@@ -13,6 +14,11 @@ Silex application bootstrapper, just what you need to get in Silex world.
 Install Bower dependencies
 ```
 $ bower install
+```
+
+Install Composer dependencies
+```
+$ composer install
 ```
 
 
