@@ -7,6 +7,7 @@ Silex application bootstrapper, just what you need to get in Silex world.
 
 - Bower
 - Composer
+- NPM
 
 
 # Install
@@ -19,6 +20,11 @@ $ bower install
 Install Composer dependencies
 ```
 $ composer install
+```
+
+Install NPM dependencies
+```
+$ npm install
 ```
 
 
