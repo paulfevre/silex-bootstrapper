@@ -1,0 +1,9 @@
+
+# Dependency manager (Bower)
+/node_modules/*
+!node_modules/.gitkeep
+/vendor/*
+!vendor/.gitkeep
+/vendor-front/*
+!vendor-front/.gitkeep
+/composer.lock

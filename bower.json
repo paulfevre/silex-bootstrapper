@@ -1,0 +1,10 @@
+{
+    "name": "paulfevre/silex-bootstrapper",
+    "license": "Apache-2.0",
+    "description": "Silex application bootstrapper",
+    "dependencies": {
+        "jquery": "~2.1",
+        "bootstrap": "~3.3",
+        "font-awesome": "~4.3"
+    }
+}

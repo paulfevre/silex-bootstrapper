@@ -1,0 +1,21 @@
+{
+    "name": "paulfevre/silex-bootstrapper",
+    "license": "Apache-2.0",
+    "description": "Silex application bootstrapper",
+    "homepage": "https://github.com/paulfevre/silex-bootstrapper",
+    "require": {
+        "doctrine/dbal": "~2.4",
+        "monolog/monolog": "~1.13",
+        "silex/silex": "~1.2",
+        "symfony/config" : "~2.6",
+        "symfony/console": "~2.6",
+        "symfony/monolog-bridge": "~2.5",
+        "symfony/twig-bridge": "~2.6",
+        "twig/twig": "~1.18"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
