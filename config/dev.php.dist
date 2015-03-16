@@ -1,0 +1,7 @@
+<?php
+
+// Include prod configuration
+require __DIR__.'/prod.php';
+
+// Debug mode
+$app['debug'] = true;
