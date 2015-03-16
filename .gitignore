@@ -1,0 +1,4 @@
+
+# Dependency manager (Bower)
+/vendor-front/*
+!vendor-front/.gitkeep
