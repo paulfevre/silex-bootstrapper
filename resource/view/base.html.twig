@@ -4,11 +4,18 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Silex Bootstrapper{% endblock %}</title>
         <meta name="description" content="{% block meta_description %}{% endblock %}" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        {# Open Graph protocol #}
         <meta property="og:title" content="{% block ogTitle %}Silex Bootstrapper{% endblock %}" />
         <meta property="og:description" content="{% block ogDescription %}{% endblock %}" />
         <meta property="og:url" content="{% block ogUrl %}http://{% endblock %}" />
-        <meta property="og:image" content="{% block ogImage %}http://{% endblock %}" />
+        {# Recommended image sizes: 320x320, 320x200, 200x320, 480x250 #}
+        <meta property="og:image" content="{% block ogImageSquare %}http://{% endblock %}" />
+        <meta property="og:image" content="{% block ogImageLandscape %}http://{% endblock %}" />
+        <meta property="og:image" content="{% block ogImagePortrait %}http://{% endblock %}" />
+        <meta property="og:image" content="{% block ogImageLarge %}http://{% endblock %}" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="{{ app.request.basepath }}/favicon.ico" />
         {% block meta %}
         {% endblock %}
