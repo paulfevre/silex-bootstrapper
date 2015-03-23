@@ -1,9 +1,11 @@
 <?php
 
+use Silex\Application;
 use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\TranslationServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
+use Silex\Translator;
 use Symfony\Component\Translation\Loader\YamlFileLoader;
 
 $app->register(new UrlGeneratorServiceProvider());
@@ -23,7 +25,7 @@ $app->register(new TranslationServiceProvider(), array(
 ));
 
 $app['translator'] = $app->share(
-        $app->extend('translator', function($translator, $app) {
+        $app->extend('translator', function(Translator $translator, Application $app) {
             $translator->addLoader('yaml', new YamlFileLoader());
 
             $translator->addResource('yaml', __DIR__ . '/../locale/en.yml', 'en');
