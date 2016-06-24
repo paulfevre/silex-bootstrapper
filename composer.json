@@ -14,10 +14,5 @@
         "symfony/twig-bridge": "~2.6",
         "symfony/yaml" : "~2.6",
         "twig/twig": "~1.18"
-    },
-    "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
     }
 }
